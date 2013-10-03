@@ -7,7 +7,7 @@ Also allows developer to register multiple virtualhosts to test multilingual dom
 
 ## Requirements
 
- * SilverStripe 2.4 or newer, 
+ * SilverStripe 3.1 or newer, 
 
 
 ## Installation
@@ -15,11 +15,11 @@ Also allows developer to register multiple virtualhosts to test multilingual dom
  * Copy the `Translatable-Domains` directory into your main SilverStripe webroot
  * Insert in your config eg mysite/_config/mysite.yml
  
-	TranslatableDomains:
-		domain_locale_map:
-			mysite.de: de_DE
-			mysite.com: en_GB
-			mysite.nl: nl_NL
+TranslatableDomains:
+  domain_locale_map:
+    mysite.de: de_DE
+    mysite.com: en_GB
+    mysite.nl: nl_NL
 
  * replace tld with the top level domain you wish to force to a specific locale (mysite.com, mysite.fr, anotheriste.co.uk, etc)
  * replace locale with the locale you wish the top level domain to use.
